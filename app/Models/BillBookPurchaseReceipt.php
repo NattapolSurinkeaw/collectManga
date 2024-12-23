@@ -7,4 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class BillBookPurchaseReceipt extends Model
 {
     //
+    protected $guarded = [];
 }

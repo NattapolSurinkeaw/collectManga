@@ -7,4 +7,5 @@ use Illuminate\Database\Eloquent\Model;
 class Illustrator extends Model
 {
     //
+    protected $guarded = [];
 }

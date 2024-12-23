@@ -25,6 +25,7 @@ return new class extends Migration
             $table->date('release_date');
             $table->timestamps();
         });
+
     }
 
     /**
